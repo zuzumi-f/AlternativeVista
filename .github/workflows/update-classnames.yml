@@ -8,9 +8,11 @@ jobs:
     update:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - name: Checkout
+              uses: actions/checkout@v4
 
             - name: Run Class Name Updater
               uses: fedeericodl/discord-update-classnames@main
               with:
+                  commit-message: "chore: update class names"
                   files: "src"
