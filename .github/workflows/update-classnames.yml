@@ -1,15 +1,12 @@
-- name: Discord Class Updater
-
-  uses: metro420yt/class-update@v1
+            - name: Discord Class Updater
+  # You may pin to the exact commit or the version.
+  # uses: Metro420yt/class-update@8c8261c7586412f810b0018fe8dfde43942ff93f
+  uses: Metro420yt/class-update@v1-rc
   with:
     # folder that has your theme files
-    # Default: themes
-    folder: 'src'
-
+    folder: "src"
     # file extension to target
-    # Default: css
     ext: css
-
     # url or relative path to a file containing an old&new pair of class names
-    # Default: https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt
-    diff: './changes.txt'
+    diff: # optional, default is https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt
+          
