@@ -1,6 +1,5 @@
  name: Discord Class Updater
   # You may pin to the exact commit or the version.
-  # uses: Metro420yt/class-update@8c8261c7586412f810b0018fe8dfde43942ff93f
   uses: Metro420yt/class-update@v1-rc
   with:
     # folder that has your theme files
