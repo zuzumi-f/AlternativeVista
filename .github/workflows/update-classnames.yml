@@ -1,11 +1,2 @@
- name: Discord Class Updater
-
+- name: Discord Class Updater
   uses: Metro420yt/class-update@v1-rc
-  with:
-
-    folder: "src"
-
-    ext: css
-
-    diff: './changes.txt'
-          
