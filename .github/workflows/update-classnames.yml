@@ -1,4 +1,6 @@
-- uses: metro420yt/class-update@v1
+- name: Discord Class Updater
+
+  uses: metro420yt/class-update@v1
   with:
     # folder that has your theme files
     # Default: themes
